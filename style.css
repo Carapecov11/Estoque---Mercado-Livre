@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('Logo/Fundo.png');
+    min-height:100vh;
+}
+
+/* HEADER */
+
+header{
+    height:20vh;
+
+    background:#FFE600;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header img{
+    height:100px;
+}
+
+/* CONTEÚDO */
+
+main{
+
+    min-height:80vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:25px;
+
+    padding:30px;
+}
+
+/* CARDS */
+
+.card{
+
+    width:90%;
+    max-width:800px;
+
+    background:#8d8d8d;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    color:white;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/* INPUTS */
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    margin-bottom:10px;
+}
+
+/* BOTÕES */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#FFE600;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+/* LISTA */
+
+#listaProdutos{
+
+    list-style:none;
+}
+
+#listaProdutos li{
+
+    background:white;
+
+    color:black;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    margin-bottom:10px;
+}
+.btn-deletar{
+
+    width:auto;
+
+    margin-left:10px;
+
+    padding:8px 12px;
+
+    background:#dc3545;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+.btn-deletar:hover{
+
+    background:#ff384c;
+}
+header{
+
+    height:20vh;
+
+    background:#FFE600;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+}
+.acoes{
+
+    position:absolute;
+
+    top:20px;
+
+    right:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.btn-sair{
+
+    background:#dc3545;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    width:140px;
+}
+
+.btn-relatorio{
+
+    background:#2e9152;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    width:140px;
+}

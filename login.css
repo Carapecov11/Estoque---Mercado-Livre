@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:200vh;
+
+    background-image:url('Logo/Fundo.png');
+    background-size:cover;
+    background-position:center;
+}
+
+/* HEADER */
+
+header{
+
+    height:20vh;
+
+    background:#FFE600;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header img{
+    height:70px;
+}
+
+/* ÁREA LOGIN */
+
+main{
+
+    height:80vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+
+    width:400px;
+
+    background:#8d8d8d;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.login-card h1{
+
+    text-align:center;
+}
+
+.login-card p{
+
+    text-align:center;
+    margin-bottom:10px;
+}
+
+input{
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+}
+
+button{
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#FFE600;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+button:hover{
+
+    opacity:.9;
+}
+
+a{
+
+    color:white;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    margin-top:10px;
+}
+
+a:hover{
+
+    text-decoration:underline;
+}
